@@ -45,9 +45,9 @@ const About = ({darkMode, t, i18n}) => {
               <span className="font-bold pr-2">{t("about.from")} </span> Bogotá,
               Colombia
             </li>
-            <li className="mb-2 ">
-              <span className="font-bold pr-2">{t("about.job")}</span>{" "}
-              <span className=" bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-lime-500 via-teal-600 to-indigo-900 dark:bg-gradient-to-br dark:from-purple-600 dark:to-blue-500 rounded-md text-white font-bold p-1 px-1.5 pt-0 ">
+            <li className="mb-2 grid md:flex">
+              <span className="font-bold pr-2 ">{t("about.job")}</span>{" "}
+              <span className=" bg-[radial-gradient(ellipse_at_top_right,_var(--tw-gradient-stops))] from-lime-500 via-teal-600 to-indigo-900 dark:bg-gradient-to-br dark:from-purple-600 dark:to-blue-500 rounded-md text-white font-bold w-[50%] p-1 px-1.5 pt-0 ">
               {t("about.service_technician")}
               </span>
             </li>
