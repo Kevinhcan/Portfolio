@@ -74,7 +74,7 @@ const App = () => {
   };
 
   return (
-    <div className="bg-slate-300 dark:bg-gray-900">
+    <div className={`${darkMode ? 'bg-gray-900' : 'fondo'}`}>
       <Sidenav changeDarkMode={changeDarkMode} t={t} darkMode={darkMode} />
           <button
             className="z-10 md:block hidden fixed text-yellow-400 bg-slate-800 items-center justify-center p-3.5 m-2 overflow-hidden font-medium dark:text-gray-100 rounded-full group shadow-lg shadow-gray-700 hover:scale-110 duration-100 dark:bg-gradient-to-br from-purple-600 to-blue-500 group-hover:from-purple-600 group-hover:to-blue-500 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 text-xl"
@@ -82,7 +82,7 @@ const App = () => {
           >
                {darkMode ? <FaMoon size={25} /> : <FaSun size={25} />}
           </button>
-          <button onClick={toggleLanguage} className=" font-semibold dark:text-gray-200 text-gray-900 text-lg fixed z-10 p-5 md:translate-x-[70%]">EN/ES</button>
+          <button onClick={toggleLanguage} className={`font-semibold ${darkMode ? 'bg-gray-800/80' : 'bg-gray-300/80'} rounded-3xl dark:text-gray-200 text-gray-900 text-lg fixed z-10 p-3 m-2 ml-8 md:translate-x-[70%]`}>EN/ES</button>
       <Main t={t} i18n={i18n} />
       <About darkMode={darkMode} i18n={i18n} t={t} />
       {/*     <Education darkMode={darkMode} /> */}
