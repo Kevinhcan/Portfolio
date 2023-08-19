@@ -33,10 +33,12 @@
 "projects":{
     "projects":"Proyectos",
     "text":"Durante mi paso por Academlo tuve la oportunidad de desarrollar varios proyectos donde implementé mis conocimientos de diferentes frameworks y lenguajes de programación.",
+    "info":"Más Información",
     "aleatorio":"Aplicación que registra a un usuario con datos personales, contraseña y una fotografía",
     "users":"Application that registers a user with personal information, password and a photograph",
     "pokedex":"Una pokedex la cual fue hecha con la famosa pokeapi en la cual se pueden ver los diferentes tipos de pokemon que existen hasta la fecha",
-    "weather":"Una aplicación que te solicita permiso para acceder a tu ubicación y en base a ésta te da información del clima"
+    "weather":"Una aplicación que te solicita permiso para acceder a tu ubicación y en base a ésta te da información del clima",
+    "tesla":"Un clon de la interfaz inicial de la pagina oficial de Tesla"
 },
 "contact":{
     "contact":"Contactame",    

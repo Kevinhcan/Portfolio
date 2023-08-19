@@ -34,10 +34,12 @@
 "projects":{
     "projects":"Projects",
     "text":"During my time at Academlo I had the opportunity to develop various projects where I implemented my knowledge of different frameworks and programming languages.",
+    "info":"More Info",
     "aleatorio":"Application that randomly changes an image and a phrase along with its respective author",
     "users":"Application that registers a user with personal information, password and a photograph",
     "pokedex":"A pokedex which was made with the famous pokeapi from which you can see the different types of pokemon that exist to date",
-    "weather":"An application that asks you for permission to access your location and based on it gives you weather information"
+    "weather":"An application that asks you for permission to access your location and based on it gives you weather information",
+    "tesla": "A clone of the initial interface of the Tesla official website"
 },
 
 "contact":{

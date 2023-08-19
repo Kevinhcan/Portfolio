@@ -56,7 +56,7 @@ const About = ({darkMode, t, i18n}) => {
         <div className=" md:w-1/2">
           <p className={` ${darkMode ? 'gradient-text' : 'gradient-text-sun'} text-2xl font-bold pb-4`}>{t("about.hobbies")}</p>
           <div className="flex flex-wrap gap-4">
-            <div className="bg-gray-200 transition duration-300 text-black dark:bg-gray-800 dark:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center  justify-center">
+            <div className="bg-gray-200 transition duration-300 text-black dark:bg-gray-800 dark:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center justify-center">
               <FaPlane size={40} />
               {t("about.travel")}
             </div>
@@ -64,7 +64,7 @@ const About = ({darkMode, t, i18n}) => {
               <FaCamera size={40} />
               {t("about.photography")}
             </div>
-            <div className="bg-gray-200 transition duration-300 text-black dark:bg-gray-800 dark:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center  justify-center">
+            <div className="bg-gray-200 transition duration-300 text-black dark:bg-gray-800 dark:text-white gap-1 flex-col rounded-lg w-28 h-28 flex items-center justify-center">
               <FaCode size={40} />
               {t("about.code")}
             </div>
